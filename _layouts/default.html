@@ -108,15 +108,37 @@
       font-weight: 500;
     }
 
-    .tldr .action-badge {
-      background-color: #e8f1fb;
-      color: #005a9c;
-      padding: 2px 6px;
-      font-size: 0.85em;
-      font-weight: 600;
-      border-radius: 3px;
-      margin-right: 6px;
-    }
+.tldr .action {
+  font-weight: 600;
+  padding: 2px 6px;
+  font-size: 0.85em;
+  border-radius: 3px;
+  margin-right: 6px;
+}
+
+/* Urgent: needs immediate attention */
+.tldr .action-urgent {
+  background-color: #fdecea;
+  color: #b42318;
+}
+
+/* Recommended: should do */
+.tldr .action-recommended {
+  background-color: #e8f1fb;
+  color: #005a9c;
+}
+
+/* Requested: softer ask */
+.tldr .action-requested {
+  background-color: #f4f4f4;
+  color: #555;
+}
+
+/* Optional: low priority */
+.tldr .action-optional {
+  background-color: #f5f8fb;
+  color: #6b7280;
+}
   </style>
 </head>
 <body>
